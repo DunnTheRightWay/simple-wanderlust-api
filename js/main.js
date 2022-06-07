@@ -1,4 +1,4 @@
-document.querySelector('button').addEventListener('click', apiRequest)
+document.querySelector('button').addEventListener('click', loadAdventure)
 document.addEventListener("keypress", function (e) {
     if (e.key === "Enter") {
       loadAdventure();
