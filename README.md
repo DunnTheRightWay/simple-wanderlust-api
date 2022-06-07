@@ -7,7 +7,7 @@ Example: https://simple-wanderlust-api.herokuapp.com/api/virginia
 
 I created this API and hosted it using Heroku.
 
-**Tech used:** JavaScript
+**Tech used:** Node, Express, Heroku
 
 
 ## Optimizations
