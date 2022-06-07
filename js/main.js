@@ -8,7 +8,7 @@ document.addEventListener("keypress", function (e) {
 async function loadAdventure(){
     const stateName = document.querySelector('input').value
     try{
-        const response = await fetch(`https://simple-wanderlust-api.herokuapp.com/api/${stateName}`)
+        const response = await fetch(`https://simple-wanderlust-api.herokuapp.com/${stateName}`)
         const data = await response.json()
 
         console.log(data.state)
