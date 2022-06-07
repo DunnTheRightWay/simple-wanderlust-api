@@ -11,11 +11,11 @@ async function loadAdventure(){
         const response = await fetch(`https://simple-wanderlust-api.herokuapp.com/api/${stateName}`)
         const data = await response.json()
 
-        console.log(data)
-        document.querySelector('.name').innerText = data.name
-        document.querySelector('.location').innerText = data.location
-        document.querySelector('.description').innerText = data.description
-        document.querySelector('.website').innerText = data.website
+        console.log(data.state)
+        document.querySelector('.name').innerText = "Name: " + data.name
+        document.querySelector('.location').innerText = "Location: " + data.location
+        document.querySelector('.description').innerText = "Description " + data.description
+        document.querySelector('.website').innerText = "Website: " + data.website
     }catch(error){
         console.log(error)
     }
