@@ -5,7 +5,7 @@ document.addEventListener("keypress", function (e) {
     }
   });
 
-async function apiRequest(){
+async function loadAdventure(){
     const stateName = document.querySelector('input').value
     try{
         const response = await fetch(`https://simple-wanderlust-api.herokuapp.com/api/${stateName}`)
