@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/DunnTheRightWay/simple-wanderlust-api/blob/main/travelHeader.jpeg?raw=true" alt="Traveling header" border="0" height="200"></a>
+  <a href="https://simple-wanderlust-api.herokuapp.com/"><img src="https://github.com/DunnTheRightWay/simple-wanderlust-api/blob/main/travelHeader.jpeg?raw=true" alt="Traveling header" border="0" height="200"></a>
 </p>
 
 # Simple Wanderlust API: [Visit Here](https://simple-wanderlust-api.herokuapp.com/)
